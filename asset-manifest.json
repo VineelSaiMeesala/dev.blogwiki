@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dev.blogwiki%20/static/css/main.93032ede.css",
+    "main.js": "/dev.blogwiki%20/static/js/main.48c43976.js",
+    "static/js/787.391d5d19.chunk.js": "/dev.blogwiki%20/static/js/787.391d5d19.chunk.js",
+    "index.html": "/dev.blogwiki%20/index.html",
+    "main.93032ede.css.map": "/dev.blogwiki%20/static/css/main.93032ede.css.map",
+    "main.48c43976.js.map": "/dev.blogwiki%20/static/js/main.48c43976.js.map",
+    "787.391d5d19.chunk.js.map": "/dev.blogwiki%20/static/js/787.391d5d19.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93032ede.css",
+    "static/js/main.48c43976.js"
+  ]
+}

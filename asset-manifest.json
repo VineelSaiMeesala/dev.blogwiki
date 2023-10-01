@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/dev.blogwiki/static/css/main.93032ede.css",
-    "main.js": "/dev.blogwiki/static/js/main.121994ef.js",
+    "main.css": "/dev.blogwiki/static/css/main.fcc7d407.css",
+    "main.js": "/dev.blogwiki/static/js/main.675b12e4.js",
     "static/js/787.391d5d19.chunk.js": "/dev.blogwiki/static/js/787.391d5d19.chunk.js",
+    "static/media/Img5.jpg": "/dev.blogwiki/static/media/Img5.e1556c9c7a76c11e48c5.jpg",
+    "static/media/Img1.png": "/dev.blogwiki/static/media/Img1.606eda050495564b4417.png",
+    "static/media/Img4.jpeg": "/dev.blogwiki/static/media/Img4.ed448e211d16bbf424b7.jpeg",
+    "static/media/Img2.jpeg": "/dev.blogwiki/static/media/Img2.a2ca1272589398d59a43.jpeg",
+    "static/media/Img3.jpg": "/dev.blogwiki/static/media/Img3.b5599f35188adf8e474f.jpg",
     "index.html": "/dev.blogwiki/index.html",
-    "main.93032ede.css.map": "/dev.blogwiki/static/css/main.93032ede.css.map",
-    "main.121994ef.js.map": "/dev.blogwiki/static/js/main.121994ef.js.map",
+    "main.fcc7d407.css.map": "/dev.blogwiki/static/css/main.fcc7d407.css.map",
+    "main.675b12e4.js.map": "/dev.blogwiki/static/js/main.675b12e4.js.map",
     "787.391d5d19.chunk.js.map": "/dev.blogwiki/static/js/787.391d5d19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93032ede.css",
-    "static/js/main.121994ef.js"
+    "static/css/main.fcc7d407.css",
+    "static/js/main.675b12e4.js"
   ]
 }

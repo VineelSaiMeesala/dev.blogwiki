@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev.blogwiki/static/css/main.c371859f.css",
-    "main.js": "/dev.blogwiki/static/js/main.40178ba8.js",
+    "main.css": "/dev.blogwiki/static/css/main.48ecbdc2.css",
+    "main.js": "/dev.blogwiki/static/js/main.ef91d270.js",
     "static/js/787.391d5d19.chunk.js": "/dev.blogwiki/static/js/787.391d5d19.chunk.js",
     "static/media/Img5.jpg": "/dev.blogwiki/static/media/Img5.e1556c9c7a76c11e48c5.jpg",
     "static/media/Img1.png": "/dev.blogwiki/static/media/Img1.606eda050495564b4417.png",
@@ -13,12 +13,12 @@
     "static/media/youtube.png": "/dev.blogwiki/static/media/youtube.bc069a2b5e1ecdb5e06e.png",
     "static/media/linkedin.png": "/dev.blogwiki/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/dev.blogwiki/index.html",
-    "main.c371859f.css.map": "/dev.blogwiki/static/css/main.c371859f.css.map",
-    "main.40178ba8.js.map": "/dev.blogwiki/static/js/main.40178ba8.js.map",
+    "main.48ecbdc2.css.map": "/dev.blogwiki/static/css/main.48ecbdc2.css.map",
+    "main.ef91d270.js.map": "/dev.blogwiki/static/js/main.ef91d270.js.map",
     "787.391d5d19.chunk.js.map": "/dev.blogwiki/static/js/787.391d5d19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c371859f.css",
-    "static/js/main.40178ba8.js"
+    "static/css/main.48ecbdc2.css",
+    "static/js/main.ef91d270.js"
   ]
 }

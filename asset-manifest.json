@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/dev.blogwiki/static/css/main.48ecbdc2.css",
-    "main.js": "/dev.blogwiki/static/js/main.ef91d270.js",
-    "static/js/787.391d5d19.chunk.js": "/dev.blogwiki/static/js/787.391d5d19.chunk.js",
-    "static/media/Img5.jpg": "/dev.blogwiki/static/media/Img5.e1556c9c7a76c11e48c5.jpg",
-    "static/media/Img1.png": "/dev.blogwiki/static/media/Img1.606eda050495564b4417.png",
-    "static/media/Img4.jpeg": "/dev.blogwiki/static/media/Img4.ed448e211d16bbf424b7.jpeg",
-    "static/media/Img2.jpeg": "/dev.blogwiki/static/media/Img2.a2ca1272589398d59a43.jpeg",
-    "static/media/Img3.jpg": "/dev.blogwiki/static/media/Img3.b5599f35188adf8e474f.jpg",
+    "main.css": "/dev.blogwiki/static/css/main.d5613bec.css",
+    "main.js": "/dev.blogwiki/static/js/main.0ce488aa.js",
+    "static/media/Women16.jpeg": "/dev.blogwiki/static/media/Women16.2f77178e1b2c648f8e41.jpeg",
+    "static/media/Women17.jpeg": "/dev.blogwiki/static/media/Women17.59d2357a96459d30b6ba.jpeg",
+    "static/media/Women2.jpeg": "/dev.blogwiki/static/media/Women2.79f9553da69879c49b31.jpeg",
+    "static/media/Women26.jpeg": "/dev.blogwiki/static/media/Women26.983a87baef20482db58d.jpeg",
+    "static/media/Women10.jpeg": "/dev.blogwiki/static/media/Women10.aef5ecb64ad70f35083c.jpeg",
+    "static/media/Women12.jpeg": "/dev.blogwiki/static/media/Women12.9c42bfb07b9dfc5c73a3.jpeg",
+    "static/media/Women32.jpeg": "/dev.blogwiki/static/media/Women32.94b1790cf39156b2ea9b.jpeg",
     "static/media/instagram.png": "/dev.blogwiki/static/media/instagram.e719d8b29f452a16302d.png",
     "static/media/twitter (1).png": "/dev.blogwiki/static/media/twitter (1).e58e4997ef85cbd7054c.png",
     "static/media/youtube.png": "/dev.blogwiki/static/media/youtube.bc069a2b5e1ecdb5e06e.png",
     "static/media/linkedin.png": "/dev.blogwiki/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/dev.blogwiki/index.html",
-    "main.48ecbdc2.css.map": "/dev.blogwiki/static/css/main.48ecbdc2.css.map",
-    "main.ef91d270.js.map": "/dev.blogwiki/static/js/main.ef91d270.js.map",
-    "787.391d5d19.chunk.js.map": "/dev.blogwiki/static/js/787.391d5d19.chunk.js.map"
+    "main.d5613bec.css.map": "/dev.blogwiki/static/css/main.d5613bec.css.map",
+    "main.0ce488aa.js.map": "/dev.blogwiki/static/js/main.0ce488aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.48ecbdc2.css",
-    "static/js/main.ef91d270.js"
+    "static/css/main.d5613bec.css",
+    "static/js/main.0ce488aa.js"
   ]
 }

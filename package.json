@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy-dev": "gh-pages -d build -b DevEnv -r https://github.com/VineelSaiMeesala/dev.blogwiki.gi",
+    "deploy-dev": "gh-pages -d build -b DevEnv -r https://github.com/VineelSaiMeesala/dev.blogwiki.git",
     "deploy-qa": "gh-pages -d build -b QaEnv -r https://github.com/VineelSaiMeesala/qa.blogwiki.git",
     "build": "react-scripts build",
     "test": "react-scripts test",

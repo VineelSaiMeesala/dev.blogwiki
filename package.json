@@ -17,8 +17,8 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy-dev": "gh-pages -d build -b DevEnv -r origin",
-    "deploy-qa": "gh-pages -d build -b QaEnv -r origin",
+    "deploy-dev": "gh-pages -d build -b DevEnv -r dev",
+    "deploy-qa": "gh-pages -d build -b QaEnv -r qa",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

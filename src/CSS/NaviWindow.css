@@ -1,0 +1,118 @@
+@media only screen and (min-width: 768px) {
+  body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  a{
+    color: white;
+    text-decoration: none; 
+  }
+  .Headear {
+    transform: translateY(-1.3rem);
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+    box-sizing: border-box;
+  }
+  .Logo {
+    width: 190px;
+    height: 100%;
+    box-sizing: border-box;
+    margin-left: 30px;
+  }
+  .Logo > h2 {
+    padding: 5px;
+  }
+  .Logo > p {
+    font-size: 0.64rem;
+    padding: 5px;
+    margin-top: -30px;
+  }
+  .line {
+    width: 1px;
+    height: 50px;
+    background-color: gray;
+    position: relative;
+    top: -54px;
+    left: 150px;
+  }
+  .menu {
+    color: white;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 160px;
+    box-sizing: border-box;
+    padding: 17px 0px 0px 0px;
+    font-weight: bold;
+  }
+  .menu > span {
+    padding: 8px;
+  }
+  .search {
+    position: absolute;
+    top: 12px;
+    left: 900px;
+  }
+  .search > input {
+    width: 190px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    background-color: transparent;
+  }
+  .search > button {
+    width: 35px;
+    height: 35px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    border-radius: 17.5px;
+    background-color: transparent;
+  }
+  .Login {
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    font-weight: bold;
+    top: 15px;
+    left: 1120px;
+    background-color: rgb(82, 82, 212);
+  }
+  .icon {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+  }
+  .Social {
+    position: absolute;
+    top: 13px;
+    left: 1270px;
+    width: 160px;
+    height: 32px;
+    box-sizing: border-box;
+    display: flex;
+  }
+  .NavSocail{
+    width: 30px;
+    height: 32px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  .NavSocail > img{
+    width: 100%;
+    height: 100%;
+  }
+  .MobileNav {
+    display: none;
+  }
+  .DarkModeWrapper {
+    display: none;
+  }
+}

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev.blogwiki/static/css/main.49b28845.css",
-    "main.js": "/dev.blogwiki/static/js/main.791cc673.js",
+    "main.css": "/dev.blogwiki/static/css/main.0c55fc13.css",
+    "main.js": "/dev.blogwiki/static/js/main.9adf1d6a.js",
     "static/media/Women16.jpeg": "/dev.blogwiki/static/media/Women16.2f77178e1b2c648f8e41.jpeg",
     "static/media/Women17.jpeg": "/dev.blogwiki/static/media/Women17.59d2357a96459d30b6ba.jpeg",
     "static/media/Women2.jpeg": "/dev.blogwiki/static/media/Women2.79f9553da69879c49b31.jpeg",
@@ -10,15 +10,16 @@
     "static/media/Women12.jpeg": "/dev.blogwiki/static/media/Women12.9c42bfb07b9dfc5c73a3.jpeg",
     "static/media/Women32.jpeg": "/dev.blogwiki/static/media/Women32.94b1790cf39156b2ea9b.jpeg",
     "static/media/instagram.png": "/dev.blogwiki/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/LogoTest.png": "/dev.blogwiki/static/media/LogoTest.4aa35f1bb67edb5c7204.png",
     "static/media/twitter (1).png": "/dev.blogwiki/static/media/twitter (1).e58e4997ef85cbd7054c.png",
     "static/media/youtube.png": "/dev.blogwiki/static/media/youtube.bc069a2b5e1ecdb5e06e.png",
     "static/media/linkedin.png": "/dev.blogwiki/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/dev.blogwiki/index.html",
-    "main.49b28845.css.map": "/dev.blogwiki/static/css/main.49b28845.css.map",
-    "main.791cc673.js.map": "/dev.blogwiki/static/js/main.791cc673.js.map"
+    "main.0c55fc13.css.map": "/dev.blogwiki/static/css/main.0c55fc13.css.map",
+    "main.9adf1d6a.js.map": "/dev.blogwiki/static/js/main.9adf1d6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.49b28845.css",
-    "static/js/main.791cc673.js"
+    "static/css/main.0c55fc13.css",
+    "static/js/main.9adf1d6a.js"
   ]
 }

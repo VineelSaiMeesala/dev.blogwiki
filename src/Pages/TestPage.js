@@ -81,7 +81,7 @@ const RestrictedContent = () => {
     <div>
       {loading ? (
         <div className="Loading">
-            <img src={logo} className="LoadImg"></img>
+            <img src={logo} className="LoadImg" alt="LoadingLogo"></img>
         </div>
       ) : ErrorMessage ? (
         <div className="ErrorMessagetest">{ErrorMessage}</div>

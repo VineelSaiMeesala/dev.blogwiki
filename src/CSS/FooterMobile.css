@@ -1,0 +1,167 @@
+@media only screen and (max-width: 768px) {
+  .FooterWrapper {
+    width: 100%;
+    height: 27em;
+    background-color: black;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .FootHeadear{
+    width: 5em;
+    box-sizing: border-box;
+    position: relative;
+    left: 2em;
+    
+  }
+  .FootLogo{
+    /* display: none; */
+   position: absolute;
+   font-size: 1.5em;
+   top: -1em;
+   left: 2em;
+   box-sizing: border-box;
+  }
+  .FootLogo > p{
+    position: absolute;
+    top: 4.2em;
+    left: 0.3em;
+    font-size: 0.6em;
+   }
+   .Footline{
+    display: none;
+   }
+   .FNewsLetter{
+    /* display: none; */
+    height: 5em;
+    position: absolute;
+    top: 10em;
+    left: 2cap;
+    box-sizing: border-box;
+   }
+   .FNewsLetter > input{
+    width: 19em;
+    height: 3.5em;
+    border: none;
+    position: absolute;
+    border-radius: 15px;
+   }
+   .FNewsLetter > input:focus{
+    outline: none;
+   }
+   .FNewsLetter > button{
+    position: absolute;
+    width: 8em;
+    height: 3.65em;
+    left: 15em;
+    border-radius: 15px;
+    cursor: pointer;
+   }
+   .Subbutton:hover {
+    background-color: #276ecf;
+    color: #f6f6f6; 
+  }
+   .CopyrightWrapper{
+    width: 25em;
+    height: 14em;
+    position: relative;
+    left: 0em;
+    top: -19em;
+    box-sizing: border-box;
+   }
+   .CopyrightWrapper >p{
+    position: absolute;
+    top: 16em;
+    box-sizing: border-box;
+   }
+   .SocailProfileWrapper{
+    width: 15em;
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    top: 13em;
+    left: 5em;
+   }
+   .SocailProfileWrapper > p{
+    font-size: 1.2em;
+    position: absolute;
+    left: 2em;
+   }
+  .FooterSocial{
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    box-sizing: border-box;
+    position: relative;
+    top: 0.5em;
+  }
+  .FooterSocial > img{
+    width: 100%;
+    height: 100%;
+  }
+  #twitter>img{
+    border-radius: 5px;
+    background-color: wheat;
+  }
+  .FooterOptionWrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: "line1"
+                          "line2"
+                          "line3";
+    width: 20em;
+    height: 11em;
+    position: relative;
+    left: 1.5em;
+    top: -35em;
+    box-sizing: border-box;
+    font-size: 1.1em;
+  }
+  .OptionLine{
+    margin-top: -3em;
+  }
+  .OptionLine1{
+    grid-area: line1;
+    margin: 0px;
+  }
+  .OptionLine2{
+    grid-area: line2;
+  }
+  .OptionLine3{
+    grid-area: line3;
+  }
+  .OptioninnerWrapper{
+    text-align: left;
+    margin-left: 0.5em;
+    
+  }
+  .LinkWrapper{
+    text-decoration: none;
+  }
+  .BackTopWrapper{
+    display: none;
+    font-weight: bolder;
+  }
+  .BackTopWrapper > div{
+    transform: rotate(90deg);
+    position: relative;
+    top: 80px;
+    cursor: pointer;
+  }
+  .VersionWrap{
+    display: none;
+    
+  }
+  .FErrorMessage{
+    color: red;
+    position: absolute;
+  }
+  .FThanksMessage{
+    color: green;
+  }
+  .Version{
+    font-size: small;
+  }
+  .FootEnv{
+    font-size: small;
+  }
+}

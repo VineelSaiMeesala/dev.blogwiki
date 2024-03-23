@@ -85,6 +85,9 @@ body {
     width: 5rem;
     transform: translate(1.5rem,1rem);
     font-size: smaller;
+    position: absolute;
+    top: 0em;
+    left:2.5em;
   }
   .profileName a{
     color: black;
@@ -100,6 +103,8 @@ body {
     width: 6rem;
     height: 2rem;
     box-sizing: border-box;
+    position: absolute;
+    left: 6em;
   }
   .BlogBtn button{
     border: none;

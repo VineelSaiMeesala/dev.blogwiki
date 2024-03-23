@@ -45,7 +45,7 @@ var NavigationBar = function () {
             <Link to="/BlogPage">Services</Link>
           </span>
           <span>
-            <Link to="/testpages">TestLink</Link>
+            <Link to="/testpage">TestLink</Link>
           </span>
         </div>
         <div className="search">

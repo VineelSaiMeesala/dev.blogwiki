@@ -23,3 +23,16 @@
 .Footer{
     grid-area: footer;
 }
+@media only screen and (max-width: 768px) {
+    .Aside{
+        display: none;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto auto 360px;
+        grid-template-areas: "head head"
+                              "content content content"
+                              "footer footer footer";
+        grid-template-rows: 15px;
+    }
+}

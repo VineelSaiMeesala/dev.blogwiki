@@ -1,64 +1,118 @@
 @media only screen and (max-width: 768px) {
   .BlogCard {
     display: flex;
-    width: 90%;
+    width: 100%;
     flex-wrap: wrap;
-    margin: auto;
-    height: 10rem;
+    margin: auto auto 1em auto;
+    height: 10em;
     border-radius: 15px;
-    box-shadow: 1px 1px 44px -21px rgba(234, 1, 212, 0.9);
+    box-shadow:-1px 12px 40px -8px rgba(0,0,0,0.9);
     box-sizing: border-box;
   }
   #image > img {
     width: 100%;
     height: 100%;
-    margin-bottom: 10px;
+    border-radius: 5px 0px 0px 5px;
   }
   #image {
-    margin-top: 14px;
-    margin-left: 5px;
-    width: 7.8rem;
-    height: 80%;
-    background-color: aquamarine;
+    width: 5em;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    );
     box-sizing: border-box;
     border-radius: 15px;
+    box-shadow: 1px 1px 10px 10px rgba(220, 214, 214, 0.9);
   }
   #BlogHead {
-    width: 13rem;
+    width: 13em;
+    position: relative;
+    top: -10.7em;
+    left: 0.1em;
   }
 
   #BlogHead > h3 {
-    font-size: 15px;
+    font-size: 10px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    transform: translate(0.5rem, -0rem);
   }
   #BlogPara {
-    width: 13.4rem;
-    transform: translate(8.5rem, -7rem);
+    width: 15em;
+    height: 25px;
+    box-sizing: border-box;
+    position: relative;
+    left: 4em;
+    bottom: 8em;
   }
   #BlogPara > p {
-    font-size: 14px;
+    font-size: 10px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 5;
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  #BlogBtn {
-    transform: translate(1.4rem, -2rem);
+  .Blogfooter {
+    width: 65%;
+    height: 45px;
+    display: flex;
+    position: relative;
+    top: -5em;
+    left: 1em;
   }
-  #BlogBtn > button {
-    display: none;
+  .ProfileWrap{
+    display: flex;
+    position: relative;
+    left: 4.5em;
+  }
+  .profile {
     border: none;
-    width: 6rem;
-    height: 2rem;
-    background: linear-gradient(
-      90deg,
-      rgba(238, 174, 202, 1) 0%,
-      rgba(148, 187, 233, 1) 100%
-    );
-    border-radius: 5px;
+    width: 2em;
+    height: 2em;
+    border-radius:1em;
+    box-sizing: border-box;
+  }
+  .profileName{
+    width: 5rem;
+    font-size: smaller;
+    position: relative;
+    top: 2em;
+  }
+  .profileName a{
+    font-size: 0.7em;
+    color: black;
+    text-decoration: none; 
+  }
+  .profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    left: -0.4em;
+    top: 1.2em;
+  }
+  .BlogBtn{
+    width: 6em;
+    height: 1.5em;
+    box-sizing: border-box;
+    position: relative;
+    top: 1em;
+  }
+  .BlogBtn button{
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: aliceblue;
+    transform: translate(4rem,0.4rem);
+    box-shadow:-1px 12px 40px -8px rgba(0,0,0,0.9);
+  }
+  .BlogBtn a{
+    font-size: 0.7em;
+    color: black;
+    text-decoration: none; 
   }
 }

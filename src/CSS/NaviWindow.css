@@ -120,17 +120,16 @@
 /* Mobile Version Styles*/
 
 @media only screen and (max-width: 768px) {
-  body {
-    padding: 0px;
-    margin: 0px;
-    background-color: aliceblue;
-    overflow: hidden;
+  .NavigationBar {
+    width: 100%;
+    height: 3.5em;
+    box-sizing: border-box;
   }
   a {
     color: white;
   }
   .Head-Wrapper {
-    width: 100vw;
+    width: 100%;
     height: 3.5em;
     box-sizing: border-box;
   }
@@ -145,9 +144,10 @@
     font-size: 1.2rem;
   }
   .Logo > p {
-    font-size: 0.5rem;
+    width: 12em;
+    font-size: 0.5em;
     font-weight: 500;
-    transform: translateY(-1rem);
+    transform: translateY(-1.6em);
   }
   .line {
     display: none;

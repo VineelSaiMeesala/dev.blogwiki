@@ -27,11 +27,6 @@
   }
 }
 @media only screen and (max-width: 768px) {
-  .body {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
   .Aside {
     display: none;
   }
@@ -47,14 +42,14 @@
   .NavigationBar {
     grid-area: head;
     z-index: 1000;
-    width: 102.5%;
+    width: 100%;
   }
   .Aside {
     grid-area: Aside;
   }
   .MainContent {
     grid-area: content;
-    width: 102.5%;
+    width: 100%;
   }
   .Footer {
     grid-area: footer;

@@ -43,7 +43,7 @@ const Footer = () => {
       setSubscribed(true);
       setErrorMessage(""); // Clear any previous error message
       setEmail("");
-      setthanksMessage("Thanks for Subscribe.");
+      setthanksMessage("Thank you for subscribing! 🎉");
     }
   };
   return (
@@ -72,7 +72,7 @@ const Footer = () => {
       </div>}
       <div className="CopyrightWrapper">
         <div className="SocailProfileWrapper">
-          <p>Follow US</p>
+          <p>Follow us on</p>
           <a
             className="FooterSocial"
             target="no_blank"
@@ -110,7 +110,7 @@ const Footer = () => {
             <img alt="SocialMedia" src={linkedin} />
           </a>
         </div>
-        <p>All Rights Reserved 2023 | BlogWiki&copy;</p>
+        <p>All Rights Reserved 2024 | BlogWiki&copy;</p>
         <div className="VersionWrap">
         <p className="FootEnv">Environment: {config("Environment")}</p>
         <p className="Version">Version: {config("Version")}</p>
@@ -119,35 +119,35 @@ const Footer = () => {
       <div className="FooterOptionWrapper">
         <div className="OptionLine1 OptionLine">
           <span className="OptioninnerWrapper">
-            <Link className="LinkWrapper1" to="/qa.blogwiki">Home</Link>
+            <Link className=" LinkWrapper LinkWrapper1" to="/qa.blogwiki">Home</Link>
           </span>
           <span className="OptioninnerWrapper">
-            <Link className="LinkWrapper2" to="/qa.blogwiki">Gadgets</Link>
+            <Link className=" LinkWrapper LinkWrapper2" to="/qa.blogwiki">Gadgets</Link>
           </span>
           <span className="OptioninnerWrapper">
-            <Link className="LinkWrapper3" to="/qa.blogwiki">Advertise</Link>
+            <Link className=" LinkWrapper LinkWrapper3" to="/qa.blogwiki">Advertise</Link>
           </span>
         </div>
         <div className="OptionLine2 OptionLine">
           <span className="OptioninnerWrapper">
-            <Link className="LinkWrapper4" to="/qa.blogwiki">News</Link>
+            <Link className=" LinkWrapper LinkWrapper4" to="/qa.blogwiki">News</Link>
           </span>
           <span className="OptioninnerWrapper ">
-            <Link className="LinkWrapper5" to="/qa.blogwiki">Weather</Link>
+            <Link className=" LinkWrapper LinkWrapper5" to="/qa.blogwiki">Weather</Link>
           </span>
           <span className="OptioninnerWrapper">
-            <Link className="LinkWrapper6" to="/PrivacyPolicy">Privacy Policy</Link>
+            <Link className=" LinkWrapper LinkWrapper6" to="/PrivacyPolicy">Privacy Policy</Link>
           </span>
         </div>
-        <div className="OptionLine OptionLine1">
+        <div className="OptionLine OptionLine3">
           <span className="OptioninnerWrapper">
-            <Link className="LinkWrapper7" to="/qa.blogwiki">Tech</Link>
+            <Link className=" LinkWrapper LinkWrapper7" to="/qa.blogwiki">Tech</Link>
           </span>
           <span className="OptioninnerWrapper">
-            <Link className="LinkWrapper8" to="/qa.blogwiki">About</Link>
+            <Link className=" LinkWrapper LinkWrapper8" to="/qa.blogwiki">About</Link>
           </span>
           <span className="OptioninnerWrapper">
-            <Link className="LinkWrapper9" to="/qa.blogwiki">Contact</Link>
+            <Link className=" LinkWrapper LinkWrapper9" to="/qa.blogwiki">Contact</Link>
           </span>
         </div>
       </div>

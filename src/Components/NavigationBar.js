@@ -1,5 +1,5 @@
+import React, { useState, useEffect } from 'react';
 import "../CSS/NaviWindow.css";
-import "../CSS/NaviMobile.css";
 import facebook from "../Img/facebook.png";
 import twitter from "../Img/twitter (1).png";
 import instagram from "../Img/instagram.png";
@@ -9,6 +9,36 @@ import { Link } from "react-router-dom";
 import FeatureFlag from "../FeatureFlag"
 var NavigationBar = function () {
   const SubscribeFeature=FeatureFlag("FeatureFlagOn")
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.classList.add('menu-open');
+    } else {
+      document.body.classList.remove('menu-open');
+    }
+  }, [isMenuOpen]);
+  const clicked = function () {
+    setIsMenuOpen(prevState => !prevState);
+    var menu = document.getElementById("menu");
+    var btn = document.getElementById("btn1");
+    var btn2 = document.getElementById("btn2");
+    var Login = document.getElementById("Login");
+    var Social = document.getElementById("Social");
+    if (menu.style.display === "block") {
+      menu.style.display = "none";
+      btn.style.display = "block";
+      btn2.style.display = "none";
+      Login.style.display = "none";
+      Social.style.display = "none";
+    } else {
+      menu.style.display = "block";
+      btn.style.display = "none";
+      btn2.style.display = "block";
+      Login.style.display = "block";
+      Social.style.display = "block";
+    }
+  };
   return (
     <div className="Head-Wrapper">
       <div className="Headear">
@@ -21,31 +51,31 @@ var NavigationBar = function () {
       <div>
         <div id="menu" className="menu">
           <span>
-            <Link to="/dev.blogwiki">Home</Link>
+            <Link className='Link' to="/dev.blogwiki">Home</Link>
           </span>
           <span>
-            <Link to="/BlogPage">News</Link>
+            <Link className='Link' to="/BlogPage">News</Link>
           </span>
           <span>
-            <Link to="/dev.blogwiki">Tech</Link>
+            <Link className='Link' to="/dev.blogwiki">Tech</Link>
           </span>
           <span>
-            <Link to="/BlogPage">Gadgets</Link>
+            <Link className='Link' to="/BlogPage">Gadgets</Link>
           </span>
           <span>
-            <Link to="/dev.blogwiki">Weather</Link>
+            <Link className='Link' to="/dev.blogwiki">Weather</Link>
           </span>
           <span>
-            <Link to="/BlogPage">About</Link>
+            <Link className='Link' to="/BlogPage">About</Link>
           </span>
           <span>
-            <Link to="/dev.blogwiki">Contact</Link>
+            <Link className='Link' to="/dev.blogwiki">Contact</Link>
           </span>
           <span>
-            <Link to="/BlogPage">Services</Link>
+            <Link className='Link' to="/BlogPage">Services</Link>
           </span>
           <span>
-            <Link to="/testpage">TestLink</Link>
+            <Link className='Link' to="/testpage">TestLink</Link>
           </span>
         </div>
         <div className="search">
@@ -63,7 +93,7 @@ var NavigationBar = function () {
           </datalist>
         </div>
         {SubscribeFeature && <div id="Login" className="Login">
-        <Link to="/loginsignup" className="Login-btn">
+        <Link className='Link' to="/loginsignup" className="Login-btn">
             Login/Signup
           </Link>
         </div>}
@@ -120,25 +150,5 @@ var NavigationBar = function () {
       </div>
     </div>
   );
-};
-const clicked = function () {
-  var menu = document.getElementById("menu");
-  var btn = document.getElementById("btn1");
-  var btn2 = document.getElementById("btn2");
-  var Login = document.getElementById("Login");
-  var Social = document.getElementById("Social");
-  if (menu.style.display === "block") {
-    menu.style.display = "none";
-    btn.style.display = "block";
-    btn2.style.display = "none";
-    Login.style.display = "none";
-    Social.style.display = "none";
-  } else {
-    menu.style.display = "block";
-    btn.style.display = "none";
-    btn2.style.display = "block";
-    Login.style.display = "block";
-    Social.style.display = "block";
-  }
 };
 export default NavigationBar;

@@ -1,51 +1,62 @@
 @media only screen and (min-width: 768px) {
-.body{
+  .body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-}
-.container{
+  }
+  .container {
     display: grid;
     grid-template-columns: auto auto 360px;
-    grid-template-areas: "head head head"
-                          "content content Aside"
-                          "footer footer footer";
+    grid-template-areas:
+      "head head head"
+      "content content Aside"
+      "footer footer footer";
     grid-template-rows: 15px;
-}
-.NavigationBar{
+  }
+  .NavigationBar {
     grid-area: head;
-}
-.Aside{
+  }
+  .Aside {
     grid-area: Aside;
-}
-.MainContent{
+  }
+  .MainContent {
     grid-area: content;
-}
-.Footer{
+  }
+  .Footer {
     grid-area: footer;
-}
+  }
 }
 @media only screen and (max-width: 768px) {
-    .body{
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-    }
-    .Aside{
-        display: none;
-    }
-    .container{
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-template-areas: "head head head"
-                              "content content content"
-                              "footer footer footer";
-        grid-template-rows: 15px;
-    }
-    .NavigationBar{
-        z-index: 1000;
-    }
-    .MainContent{
-        width: 102.6%;
-    }
+  .body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .Aside {
+    display: none;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+      "head head head"
+      "content content content"
+      "footer footer footer";
+    grid-template-rows: 15px;
+  }
+  .NavigationBar {
+    grid-area: head;
+    z-index: 1000;
+    width: 102.5%;
+  }
+  .Aside {
+    grid-area: Aside;
+  }
+  .MainContent {
+    grid-area: content;
+    width: 102.5%;
+  }
+  .Footer {
+    grid-area: footer;
+  }
 }

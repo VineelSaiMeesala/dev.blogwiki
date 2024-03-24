@@ -6,7 +6,6 @@ body {
   background-color: transparent;
 }
 @media only screen and (min-width: 768px) {
-
   .BlogCard {
     display: flex;
     width: 37%;
@@ -17,7 +16,7 @@ body {
     margin-top: 2rem;
     height: 15rem;
     border-radius: 15px;
-    box-shadow:-1px 12px 40px -8px rgba(0,0,0,0.9);
+    box-shadow: -1px 12px 40px -8px rgba(0, 0, 0, 0.9);
     box-sizing: border-box;
   }
   #image > img {
@@ -55,7 +54,7 @@ body {
   }
   #BlogPara {
     width: 65%;
-    transform: translate(10rem,-10rem);
+    transform: translate(10rem, -10rem);
     box-sizing: border-box;
   }
   #BlogPara > p {
@@ -76,59 +75,59 @@ body {
     border: none;
     width: 2.5rem;
     height: 2.5rem;
-    border-radius:1.25rem;
+    border-radius: 1.25rem;
     box-sizing: border-box;
-    transform: translate(1rem,0.2rem);
+    transform: translate(1rem, 0.2rem);
     background-color: aliceblue;
   }
-  .profileName{
+  .profileName {
     width: 5rem;
-    transform: translate(1.5rem,1rem);
+    transform: translate(1.5rem, 1rem);
     font-size: smaller;
     position: absolute;
     top: 0em;
-    left:2.5em;
+    left: 2.5em;
   }
-  .profileName a{
+  .profileName a {
     color: black;
-    text-decoration: none; 
+    text-decoration: none;
   }
-  .profile img{
+  .profile img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    box-shadow:-1px 12px 40px -8px rgba(0,0,0,0.9);
+    box-shadow: -1px 12px 40px -8px rgba(0, 0, 0, 0.9);
   }
-  .BlogBtn{
+  .BlogBtn {
     width: 6rem;
     height: 2rem;
     box-sizing: border-box;
     position: absolute;
     left: 6em;
   }
-  .BlogBtn button{
+  .BlogBtn button {
     border: none;
     width: 100%;
     height: 100%;
     border-radius: 15px;
     background-color: aliceblue;
-    transform: translate(4rem,0.4rem);
-    box-shadow:-1px 12px 40px -8px rgba(0,0,0,0.9);
+    transform: translate(4rem, 0.4rem);
+    box-shadow: -1px 12px 40px -8px rgba(0, 0, 0, 0.9);
   }
-  .BlogBtn a{
+  .BlogBtn a {
     color: black;
-    text-decoration: none; 
+    text-decoration: none;
   }
 }
 @media only screen and (max-width: 768px) {
   .BlogCard {
     display: flex;
-    width: 98.5%;
+    width: 100vw;
     flex-wrap: wrap;
     margin: auto auto 1em auto;
     height: 10em;
     border-radius: 15px;
-    box-shadow:-1px 12px 40px -8px rgba(0,0,0,0.9);
+    box-shadow: -1px 12px 40px -8px rgba(0, 0, 0, 0.9);
     box-sizing: border-box;
   }
   #image > img {
@@ -176,7 +175,7 @@ body {
     top: -8.5em;
     left: 5em;
   }
-  .ProfileWrap{
+  .ProfileWrap {
     display: flex;
     position: relative;
     left: 4.5em;
@@ -188,19 +187,22 @@ body {
     border: radius 1.25em;
     box-sizing: border-box;
   }
-  .profileName{
+  .profileName {
     width: 5rem;
+    height: 1.8em;
     font-size: smaller;
     position: relative;
-    top: 2em;
+    top: 1.9em;
   }
-  .profileName a{
+  .profileName a {
     font-size: 0.9em;
     color: black;
-    text-decoration: none; 
+    text-decoration: none;
     font-weight: bolder;
+    position: absolute;
+    top: 0.15em;
   }
-  .profile img{
+  .profile img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -208,7 +210,7 @@ body {
     left: -0.4em;
     top: 0.9em;
   }
-  .BlogBtn{
+  .BlogBtn {
     width: 6em;
     height: 1.9em;
     box-sizing: border-box;
@@ -216,20 +218,20 @@ body {
     top: 0.8em;
     right: -1em;
   }
-  .BlogBtn button{
+  .BlogBtn button {
     border: none;
     width: 100%;
     height: 100%;
     border-radius: 15px;
     background-color: aliceblue;
-    transform: translate(4rem,0.4rem);
-    box-shadow:-1px 12px 40px -8px rgba(0,0,0,0.9);
+    transform: translate(4rem, 0.4rem);
+    box-shadow: -1px 12px 40px -8px rgba(0, 0, 0, 0.9);
   }
-  .BlogBtn a{
+  .BlogBtn a {
     font-size: 0.9em;
     font-weight: 500;
     color: black;
-    text-decoration: none; 
+    text-decoration: none;
     font-weight: bolder;
   }
 }

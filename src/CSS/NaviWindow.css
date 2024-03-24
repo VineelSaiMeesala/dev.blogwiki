@@ -116,3 +116,110 @@
     display: none;
   }
 }
+
+/* Mobile Version Styles*/
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    background-color: aliceblue;
+    overflow: hidden;
+  }
+  a{
+    color: white;
+  }
+  .Head-Wrapper {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .Headear {
+    transform: translateY(-1rem);
+  }
+  .Logo {
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+  .Logo > h2 {
+    font-size: 1.2rem;
+  }
+  .Logo > p {
+    font-size: 0.5rem;
+    font-weight: 500;
+    transform: translateY(-1rem);
+  }
+  .line {
+    display: none;
+  }
+  .menu {
+    width: 95%;
+    height: 35rem;
+    transform: translate(0.5rem, -2rem);
+    box-sizing: border-box;
+    background-color: rgb(8, 2, 155);
+    display: none;
+    position: fixed;
+    z-index: 1000;
+  }
+  .menu > span {
+    display: flex;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    padding: 1rem;
+    z-index: 1000;
+  }
+  .MobileNav {
+    width: 2rem;
+    height: auto;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+  }
+  .searchinput {
+    display: none;
+  }
+ .Link{
+    text-decoration: none;
+  }
+  .btn-2 {
+    display: none;
+  }
+  .Social {
+    display: none;
+  }
+  .NavSocail{
+    display: none;
+  }
+  .DarkModeWrapper {
+    display: none;
+  }
+  .Link{
+    text-decoration: none;
+  }
+  .Login{
+    display: none;
+    width: 7em;
+    height: 2.5em;
+    text-align: center;
+    position: relative;
+    background-color: rgb(219, 85, 85);
+    bottom: -29.5em;
+    right: -9em;
+    border-radius: 0.5em;
+    z-index: 1000;
+  }
+  .Login-btn{
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top: 0.5em;
+    right: 0.3em;
+  }
+  .menu-open {
+    overflow: hidden;
+  }
+  
+}

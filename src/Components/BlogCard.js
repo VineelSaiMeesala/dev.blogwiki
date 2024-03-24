@@ -1,6 +1,5 @@
 import React from "react";
 import "../CSS/BlogCardWindow.css";
-import "../CSS/BlogcardMobile.css";
 import { Link } from "react-router-dom";
 const BlogCard = (prop) => {
   return (

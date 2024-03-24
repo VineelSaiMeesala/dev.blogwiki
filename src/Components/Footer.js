@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../CSS/Footer.css";
-import "../CSS/FooterMobile.css";
 import facebook from "../Img/facebook.png";
 import twitter from "../Img/twitter (1).png";
 import instagram from "../Img/instagram.png";
@@ -44,7 +43,7 @@ const Footer = () => {
       setSubscribed(true);
       setErrorMessage(""); // Clear any previous error message
       setEmail("");
-      setthanksMessage("Thanks for Subscribe.");
+      setthanksMessage("Thank you for subscribing! 🎉");
     }
   };
   return (
@@ -111,7 +110,7 @@ const Footer = () => {
             <img alt="SocialMedia" src={linkedin} />
           </a>
         </div>
-        <p>All Rights Reserved 2023 | BlogWiki&copy;</p>
+        <p>All Rights Reserved 2024 | BlogWiki&copy;</p>
         <div className="VersionWrap">
         <p className="FootEnv">Environment: {config("Environment")}</p>
         <p className="Version">Version: {config("Version")}</p>

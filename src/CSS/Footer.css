@@ -1,8 +1,8 @@
 :root {
   --Flagon-socail: -210px;
-  --Flagon-Option:345px;
-  --Flagoff-socail:-390px;
-  --Flagoff-Option:510px;
+  --Flagon-Option: 345px;
+  --Flagoff-socail: -390px;
+  --Flagoff-Option: 510px;
 }
 body {
   overflow-y: scroll;
@@ -19,79 +19,78 @@ body {
   height: 170px;
   color: white;
 }
-.FootHeadear{
+.FootHeadear {
   width: 19%;
   height: 100%;
   box-sizing: border-box;
-  
 }
-.FootLogo{
- position: relative;
- top: 35%;
- left: 20px;
- box-sizing: border-box;
+.FootLogo {
+  position: relative;
+  top: 35%;
+  left: 20px;
+  box-sizing: border-box;
 }
-.FootLogo > p{
+.FootLogo > p {
   position: relative;
   top: -20px;
   font-size: 10px;
- }
- .Footline{
+}
+.Footline {
   width: 1.5px;
   height: 3.5rem;
   background-color: white;
   position: relative;
   left: 160px;
   top: -19px;
- }
- .FNewsLetter{
+}
+.FNewsLetter {
   width: 25%;
   height: 100%;
   position: relative;
   top: -170px;
   left: 220px;
   box-sizing: border-box;
- }
- .FNewsLetter > input{
+}
+.FNewsLetter > input {
   position: relative;
   top: 70px;
   left: 20px;
   width: 70%;
-  height:30px;
+  height: 30px;
   border: none;
   border-radius: 15px;
- }
- .FNewsLetter > input:focus{
+}
+.FNewsLetter > input:focus {
   outline: none;
- }
- .FNewsLetter > button{
+}
+.FNewsLetter > button {
   position: relative;
   top: 70px;
   left: -8px;
   border: none;
-  height:32px;
+  height: 32px;
   border-radius: 15px;
   cursor: pointer;
- }
- .Subbutton:hover {
-  background-color: #276ecf;
-  color: #f6f6f6; 
 }
- .CopyrightWrapper{
+.Subbutton:hover {
+  background-color: #276ecf;
+  color: #f6f6f6;
+}
+.CopyrightWrapper {
   width: 25%;
   height: 100%;
   position: relative;
   top: var(--Flagoff-socail);
   left: 570px;
   box-sizing: border-box;
- }
- .CopyrightWrapper >p{
+}
+.CopyrightWrapper > p {
   position: relative;
   bottom: -80px;
   left: 40px;
   box-sizing: border-box;
- }
- .SocailProfileWrapper{
+}
+.SocailProfileWrapper {
   width: 270px;
   height: 32px;
   position: relative;
@@ -99,27 +98,27 @@ body {
   left: 56px;
   box-sizing: border-box;
   display: flex;
- }
- .SocailProfileWrapper > p{
+}
+.SocailProfileWrapper > p {
   position: relative;
   bottom: 10px;
   margin-right: 5px;
- }
-.FooterSocial{
+}
+.FooterSocial {
   width: 30px;
   height: 32px;
   padding: 5px;
   box-sizing: border-box;
 }
-.FooterSocial > img{
+.FooterSocial > img {
   width: 100%;
   height: 100%;
 }
-#twitter>img{
+#twitter > img {
   border-radius: 5px;
   background-color: wheat;
 }
-.FooterOptionWrapper{
+.FooterOptionWrapper {
   width: 300px;
   height: 100%;
   position: relative;
@@ -128,31 +127,32 @@ body {
   box-sizing: border-box;
   font-size: 16px;
 }
-.OptionLine{
+.OptionLine {
   padding: 10px;
   position: relative;
   top: 35px;
   left: 5px;
 }
-.OptioninnerWrapper{
+.OptioninnerWrapper {
   padding: 10px;
 }
-.LinkWrapper5{
+.LinkWrapper5 {
   position: relative;
   left: 5px;
 }
-.LinkWrapper6{
+.LinkWrapper6 {
   position: relative;
   left: 5px;
 }
-.LinkWrapper8{
+.LinkWrapper8 {
   position: relative;
   left: 14px;
-}.LinkWrapper9{
+}
+.LinkWrapper9 {
   position: relative;
   left: 29px;
 }
-.BackTopWrapper{
+.BackTopWrapper {
   width: 100px;
   height: 100%;
   position: relative;
@@ -160,123 +160,122 @@ body {
   right: -1342px;
   font-weight: bolder;
 }
-.BackTopWrapper > div{
+.BackTopWrapper > div {
   transform: rotate(90deg);
   position: relative;
   top: 80px;
   cursor: pointer;
 }
-.VersionWrap{
+.VersionWrap {
   width: 70%;
   position: relative;
   right: -64px;
   top: 75px;
   text-align: center;
 }
-.FErrorMessage{
+.FErrorMessage {
   color: #4e0303;
-  transform: translate(20px,60px);
+  transform: translate(20px, 60px);
 }
-.FThanksMessage{
+.FThanksMessage {
   color: #f6f6f6;
-  transform: translate(20px,60px);
+  transform: translate(20px, 60px);
 }
-.Version{
+.Version {
   font-size: small;
 }
-.FootEnv{
+.FootEnv {
   font-size: small;
 }
 @media only screen and (max-width: 768px) {
   .FooterWrapper {
-    width: 102.7%;
+    width: 100vw;
     height: 25em;
     background-color: black;
     box-sizing: border-box;
     position: relative;
   }
-  .FootHeadear{
+  .FootHeadear {
     width: 5em;
     box-sizing: border-box;
     position: relative;
     left: 2em;
-    
   }
-  .FootLogo{
-   position: absolute;
-   font-size: 1.5em;
-   top: -1em;
-   left: 2.5em;
-   box-sizing: border-box;
+  .FootLogo {
+    position: absolute;
+    font-size: 1.5em;
+    top: -1em;
+    left: 2.5em;
+    box-sizing: border-box;
   }
-  .FootLogo > p{
+  .FootLogo > p {
     position: absolute;
     top: 5.3em;
     left: 1em;
     font-size: 0.5em;
-   }
-   .Footline{
+  }
+  .Footline {
     display: none;
-   }
-   .FNewsLetter{
+  }
+  .FNewsLetter {
     height: auto;
     position: relative;
     left: 0em;
     top: -18em;
     box-sizing: border-box;
-   }
-   .FNewsLetter > input{
+  }
+  .FNewsLetter > input {
     width: 19em;
     height: 3.5em;
     border: none;
     position: absolute;
     left: 1em;
     border-radius: 15px;
-    pointer-events:fill;
-   }
-   .FNewsLetter > input:focus{
+    pointer-events: fill;
+  }
+  .FNewsLetter > input:focus {
     outline: none;
-   }
-   .FNewsLetter > button{
+  }
+  .FNewsLetter > button {
     position: absolute;
     left: 20.5em;
     width: 8em;
     height: 3.65em;
     border-radius: 15px;
     cursor: pointer;
-   }
-   .Subbutton:hover {
-    background-color: #276ecf;
-    color: #f6f6f6; 
   }
-   .CopyrightWrapper{
+  .Subbutton:hover {
+    background-color: #276ecf;
+    color: #f6f6f6;
+  }
+  .CopyrightWrapper {
     width: 23em;
     height: 2em;
     position: relative;
     left: 0em;
     top: -2em;
     box-sizing: border-box;
-   }
-   .CopyrightWrapper >p{
+  }
+  .CopyrightWrapper > p {
     height: 2em;
     position: absolute;
     top: -2em;
     box-sizing: border-box;
-   }
-   .SocailProfileWrapper{
+  }
+  .SocailProfileWrapper {
     width: 15em;
     box-sizing: border-box;
     display: flex;
     position: absolute;
     top: -5em;
     left: 5em;
-   }
-   .SocailProfileWrapper > p{
+  }
+  .SocailProfileWrapper > p {
     font-size: 1.2em;
     position: absolute;
     left: 2em;
-   }
-  .FooterSocial{
+  }
+  .FooterSocial {
     width: 40px;
     height: 40px;
     padding: 2px;
@@ -286,20 +285,21 @@ body {
     left: -1em;
     margin-left: 1em;
   }
-  .FooterSocial > img{
+  .FooterSocial > img {
     width: 100%;
     height: 100%;
   }
-  #twitter>img{
+  #twitter > img {
     border-radius: 5px;
     background-color: wheat;
   }
-  .FooterOptionWrapper{
+  .FooterOptionWrapper {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-areas: "line1"
-                          "line2"
-                          "line3";
+    grid-template-areas:
+      "line1"
+      "line2"
+      "line3";
     width: 19.5em;
     height: 7em;
     position: relative;
@@ -308,17 +308,17 @@ body {
     box-sizing: border-box;
     font-size: 0.8em;
   }
-  .OptionLine{
+  .OptionLine {
     position: relative;
     top: 1em;
   }
-  .OptionLine1{
+  .OptionLine1 {
     grid-area: line1;
     position: absolute;
     top: 2.5em;
     left: -1em;
   }
-  .OptionLine2{
+  .OptionLine2 {
     grid-area: line2;
     width: 28em;
     position: absolute;
@@ -326,39 +326,38 @@ body {
     left: -1em;
     margin-top: 0.9em;
   }
-  .OptionLine3{
+  .OptionLine3 {
     grid-area: line3;
     position: absolute;
     top: 1.5em;
     margin-top: 1.5em;
     left: -1em;
   }
-  .LinkWrapper{
+  .LinkWrapper {
     text-decoration: none;
-    margin:1.5em;
+    margin: 1.5em;
   }
-  .BackTopWrapper{
+  .BackTopWrapper {
     display: none;
     font-weight: bolder;
   }
-  .BackTopWrapper > div{
+  .BackTopWrapper > div {
     transform: rotate(90deg);
     position: relative;
     top: 80px;
     cursor: pointer;
   }
-  .VersionWrap{
+  .VersionWrap {
     display: none;
-    
   }
-  .FErrorMessage{
+  .FErrorMessage {
     width: 20em;
     color: red;
     position: absolute;
     top: 2.9em;
     left: -1.5em;
   }
-  .FThanksMessage{
+  .FThanksMessage {
     color: green;
     width: 15em;
     position: absolute;

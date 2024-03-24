@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dev.blogwiki/static/css/main.da5937fa.css",
+    "main.css": "/dev.blogwiki/static/css/main.75e57ece.css",
     "main.js": "/dev.blogwiki/static/js/main.4cdf9f63.js",
     "static/media/Women16.jpeg": "/dev.blogwiki/static/media/Women16.2f77178e1b2c648f8e41.jpeg",
     "static/media/Women17.jpeg": "/dev.blogwiki/static/media/Women17.59d2357a96459d30b6ba.jpeg",
@@ -15,11 +15,11 @@
     "static/media/youtube.png": "/dev.blogwiki/static/media/youtube.bc069a2b5e1ecdb5e06e.png",
     "static/media/linkedin.png": "/dev.blogwiki/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/dev.blogwiki/index.html",
-    "main.da5937fa.css.map": "/dev.blogwiki/static/css/main.da5937fa.css.map",
+    "main.75e57ece.css.map": "/dev.blogwiki/static/css/main.75e57ece.css.map",
     "main.4cdf9f63.js.map": "/dev.blogwiki/static/js/main.4cdf9f63.js.map"
   },
   "entrypoints": [
-    "static/css/main.da5937fa.css",
+    "static/css/main.75e57ece.css",
     "static/js/main.4cdf9f63.js"
   ]
 }

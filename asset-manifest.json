@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev.blogwiki/static/css/main.5c991dca.css",
-    "main.js": "/dev.blogwiki/static/js/main.7b2c0efe.js",
+    "main.css": "/dev.blogwiki/static/css/main.c0358053.css",
+    "main.js": "/dev.blogwiki/static/js/main.b25a9637.js",
     "static/media/Women16.jpeg": "/dev.blogwiki/static/media/Women16.2f77178e1b2c648f8e41.jpeg",
     "static/media/Women17.jpeg": "/dev.blogwiki/static/media/Women17.59d2357a96459d30b6ba.jpeg",
     "static/media/Women2.jpeg": "/dev.blogwiki/static/media/Women2.79f9553da69879c49b31.jpeg",
@@ -15,11 +15,11 @@
     "static/media/youtube.png": "/dev.blogwiki/static/media/youtube.bc069a2b5e1ecdb5e06e.png",
     "static/media/linkedin.png": "/dev.blogwiki/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/dev.blogwiki/index.html",
-    "main.5c991dca.css.map": "/dev.blogwiki/static/css/main.5c991dca.css.map",
-    "main.7b2c0efe.js.map": "/dev.blogwiki/static/js/main.7b2c0efe.js.map"
+    "main.c0358053.css.map": "/dev.blogwiki/static/css/main.c0358053.css.map",
+    "main.b25a9637.js.map": "/dev.blogwiki/static/js/main.b25a9637.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c991dca.css",
-    "static/js/main.7b2c0efe.js"
+    "static/css/main.c0358053.css",
+    "static/js/main.b25a9637.js"
   ]
 }
